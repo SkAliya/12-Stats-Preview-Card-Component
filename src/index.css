@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap");
 
 :root {
   --primary-color: hsl(277, 64%, 61%);
@@ -19,9 +19,93 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", serif;
   box-sizing: border-box;
 }
+
+body {
+  font-size: 1.5rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-bg);
+  color: var(--color-white);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.app {
+  max-width: 90rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: start;
+  gap: 3rem;
+  background-color: var(--card-bg);
+  overflow: hidden;
+}
+
+/* left-part */
+.left-data {
+  flex: 1;
+  display: flex;
+  margin: 4rem;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.details h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  line-height: normal;
+}
+.details span {
+  color: var(--primary-color);
+}
+.details p {
+  color: var(--main-para);
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+}
+
+.score-data p {
+  color: var(--main-para);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 1.2px;
+}
+
+/* RIGHT-PART */
+.picture {
+  flex: 1.1;
+  align-self: stretch;
+  width: 100%;
+  background-image: linear-gradient(
+      to right bottom,
+      hsla(277, 98%, 35%, 0.587),
+      hsla(277, 100%, 24%, 0.479)
+    ),
+    url(./images/image-header-desktop.jpg);
+  background-size: cover;
+}
+
+/* AUTHOR */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--primary-color);
+}
+
+/* //////////////////////////////////////////////////// */
+/* MEDIA-QUERIES */
+/* //////////////////////////////////////////////// */
 
 /* 68.75em = 1100px */
 @media only screen and (max-width: 68.75em) {
@@ -41,41 +125,42 @@ html {
     font-size: 37.5%;
   }
   #root {
-    margin: 2rem;
+    margin: 4rem 2rem;
   }
 }
-
-body {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--gray-dark);
-  text-align: center;
-  color: var(--color-white);
-}
-
-#root {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.app {
-  max-width: 35rem;
-  background-color: var(--gray-medium);
-  border-radius: 1rem;
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3rem;
-  margin-bottom: 2rem;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: var(--primary-color);
+/* 31.25 = 500px */
+@media only screen and (max-width: 31.25em) {
+  .app {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+  body {
+    text-align: center;
+    line-height: 1.8;
+    font-size: 1.8rem;
+  }
+  .left-data {
+    margin: 3rem;
+    gap: 4rem;
+  }
+  .picture {
+    height: 180px;
+    flex: none;
+    background-image: linear-gradient(
+        to right bottom,
+        hsla(277, 98%, 35%, 0.587),
+        hsla(277, 100%, 24%, 0.479)
+      ),
+      url(./images/image-header-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .details h1 {
+    font-size: 3.2rem;
+  }
+  .scores {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
