@@ -43,9 +43,10 @@ body {
   gap: 3rem;
   background-color: var(--card-bg);
   overflow: hidden;
+  margin-bottom: 2rem;
 }
 
-/* left-part */
+/* LEFT-PART */
 .left-data {
   flex: 1;
   display: flex;
