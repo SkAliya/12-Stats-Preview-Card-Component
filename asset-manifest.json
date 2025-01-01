@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/13-Stats-Preview-Card-Component/static/css/main.a474eeef.css",
+    "main.js": "/13-Stats-Preview-Card-Component/static/js/main.02c65017.js",
+    "static/media/image-header-mobile.jpg": "/13-Stats-Preview-Card-Component/static/media/image-header-mobile.399f71e732a77d1f56c6.jpg",
+    "static/media/image-header-desktop.jpg": "/13-Stats-Preview-Card-Component/static/media/image-header-desktop.72d6e2a00c9131c7b6a6.jpg",
+    "index.html": "/13-Stats-Preview-Card-Component/index.html",
+    "main.a474eeef.css.map": "/13-Stats-Preview-Card-Component/static/css/main.a474eeef.css.map",
+    "main.02c65017.js.map": "/13-Stats-Preview-Card-Component/static/js/main.02c65017.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a474eeef.css",
+    "static/js/main.02c65017.js"
+  ]
+}
