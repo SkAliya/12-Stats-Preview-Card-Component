@@ -3,7 +3,7 @@ function Footer() {
     <footer>
       <div class="attribution">
         Challenge by
-        <a href="https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ">
+        <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62">
           {" "}
           Frontend Mentor
         </a>
