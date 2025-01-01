@@ -29,8 +29,8 @@ This is a solution to the [Social-proof-section-challenge on Frontend Mentor](ht
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Social-proof-section-solution| Frontend Mentor](https://www.frontendmentor.io/solutions/beautiful-4-cards-section-built-with-just-using-html5-and-css3-X3uWFRcPi2)
-- Live Site URL: [https://skaliya.github.io/11-Social-proof-section/](https://skaliya.github.io/12-Social-Links-Profile/)
+- Solution URL: [Stats-preview-card-solution| Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-stats-card---using-react-DczY8RHAth)
+- Live Site URL: [https://skaliya.github.io/13-Stats-Preview-Card-Component/](https://skaliya.github.io/13-Stats-Preview-Card-Component/)
 
 <br>
 ## Table of contents
